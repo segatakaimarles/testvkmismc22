@@ -1,0 +1,53 @@
+*{
+    margin:0px;
+    box-sizing:border-box;
+    }
+h1, h2{
+    margin: 5px;
+    padding: 5px 10px;
+}
+header{
+    background-color:khaki;
+    height:11vh;
+    padding:5px;
+}
+nav {
+    background-color:coral;
+    height:8vh;
+    padding:3px
+}
+
+main {
+    width:80%;
+    min-height:72vh;
+    background-color:#f0f0f0;
+    float:left;
+    padding: 5px 10px;
+}
+section {
+    background-color:grey;
+    border-radius:5px;
+    margin: 20px 10px 0 10px;
+    padding: 5px 10px;
+}
+aside {
+    width:20%;
+    min-height:72vh;
+    margin-left:80%;
+    padding: 5px;
+    background-color:tan;
+}
+footer {
+    clear:both;
+    background-color:khaki;
+    min-height:9vh;
+    padding:10px 5px;
+}
+
+@media (max-width: 500px){
+    aside {
+    margin: 20px 10px 0 10px;
+    padding: 5px 10px;
+    background-color:tan;
+}
+}
